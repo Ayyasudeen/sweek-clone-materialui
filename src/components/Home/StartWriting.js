@@ -6,7 +6,7 @@ const useStyles = makeStyles({
   root: {
     height: "100vh",
     backgroundImage: "url(/assets/images/woman-sitting.jpg)",
-    objectFit: "contain",
+    objectFit: "cover",
     backgroundPosition: "50% 50%",
   },
   container: {

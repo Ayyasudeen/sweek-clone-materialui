@@ -2,6 +2,7 @@ import React from "react";
 import Discover from "./Discover";
 import FreeReading from "./FreeReading";
 import Hero from "./Hero";
+import JoinWriting from "./JoinWriting";
 import StartWriting from "./StartWriting";
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
       <FreeReading />
       <Discover />
       <StartWriting />
+      <JoinWriting />
     </div>
   );
 };
