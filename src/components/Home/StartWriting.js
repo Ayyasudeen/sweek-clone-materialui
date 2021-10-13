@@ -55,8 +55,4 @@ const StartWriting = () => {
   );
 };
 
-// comment check
-
 export default StartWriting;
-
-// comment check npm install
