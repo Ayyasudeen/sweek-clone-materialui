@@ -18,12 +18,27 @@ const useStyles = makeStyles({
     color: Colors.white,
     fontSize: 24,
     padding: "10px 65px",
-    marginTop: 15,
+    marginTop: 45,
+    marginBottom: 45,
   },
   image: {
     "& img": {
-      height: 38,
+      height: 41,
+      marginRight: 10,
     },
+  },
+  font1: {
+    fontSize: 38,
+    fontWeight: 900,
+    color: "white",
+    margin: 0,
+    paddingTop: 230,
+  },
+  font2: {
+    fontSize: 18,
+    fontWeight: 400,
+    color: "white",
+    margin: 0,
   },
 });
 
@@ -32,8 +47,10 @@ const StartUsing = () => {
   return (
     <section className={classes.root}>
       <Container maxWidth="false" className={classes.container}>
-        <h2>START USING SWEEK NOW</h2>
-        <p>Join a global community of readers and writers</p>
+        <h2 className={classes.font1}>START USING SWEEK NOW</h2>
+        <p className={classes.font2}>
+          Join a global community of readers and writers
+        </p>
         <Button className={classes.button} variant="contained" disableElevation>
           JOIN TODAY
         </Button>
