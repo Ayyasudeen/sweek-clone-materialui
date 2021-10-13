@@ -3,6 +3,7 @@ import NavBar from "./components/NavBar";
 import { createTheme, ThemeProvider } from "@material-ui/core/styles";
 import { green } from "@material-ui/core/colors";
 import Home from "./components/Home/Home";
+import Footer from "./components/Footer";
 
 const theme = createTheme({
   palette: {
@@ -31,6 +32,7 @@ function App() {
         <CssBaseline />
         <NavBar />
         <Home />
+        <Footer />
       </div>
     </ThemeProvider>
   );
