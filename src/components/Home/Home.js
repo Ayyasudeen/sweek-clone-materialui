@@ -3,6 +3,7 @@ import Discover from "./Discover";
 import FreeReading from "./FreeReading";
 import Hero from "./Hero";
 import JoinWriting from "./JoinWriting";
+import StartUsing from "./StartUsing";
 import StartWriting from "./StartWriting";
 import TurnStories from "./TurnStories";
 
@@ -15,6 +16,7 @@ const Home = () => {
       <StartWriting />
       <JoinWriting />
       <TurnStories />
+      <StartUsing />
     </div>
   );
 };
